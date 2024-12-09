@@ -12,6 +12,6 @@ spec:
     targetPort: 3000
   selector:
     app: swiggy-deploy
-  type: LoadBalancer
+  type: NodePort
 status:
   loadBalancer: {}
